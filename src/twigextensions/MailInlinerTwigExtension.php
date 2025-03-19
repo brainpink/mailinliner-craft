@@ -4,20 +4,20 @@
  *
  * Takes us back to 1999
  *
- * @link      https://www.creativeorange.nl
- * @copyright Copyright (c) 2018 Creativeorange
+ * @link      https://www.brainpink.nl
+ * @copyright Copyright (c) 2018 Brainpink
  */
 
-namespace creativeorange\craft\mailinliner\twigextensions;
+namespace brainpink\craft\mailinliner\twigextensions;
 
-use creativeorange\craft\mailinliner\MailInliner;
+use brainpink\craft\mailinliner\MailInliner;
 
 use Craft;
-use creativeorange\craft\mailinliner\twigextensions\TokenParser\MailInliner_TokenParser;
+use brainpink\craft\mailinliner\twigextensions\TokenParser\MailInliner_TokenParser;
 use Twig\Extension\AbstractExtension;
 
 /**
- * @author    Creativeorange
+ * @author    Brainpink
  * @package   MailInliner
  * @since     0.1.0
  */

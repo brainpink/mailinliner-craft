@@ -1,47 +1,47 @@
 {
-    "name": "creativeorange/mailinliner-craft",
-    "description": "Convert CSS to inline styles",
-    "type": "craft-plugin",
-    "keywords": [
-        "craft",
-        "cms",
-        "craftcms",
-        "craft-plugin",
-        "mail inliner"
-    ],
-    "support": {
-        "docs": "https://github.com/creativeorange/mail-inliner/blob/master/README.md",
-        "issues": "https://github.com/creativeorange/mail-inliner/issues"
-    },
-    "config": {
-        "platform": {
-            "php": "8.0.2"
-        }
-    },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Creativeorange",
-            "homepage": "https://www.creativeorange.nl"
-        }
-    ],
-    "require": {
-        "tijsverkoyen/css-to-inline-styles": "^2.2"
-    },
-    "autoload": {
-        "psr-4": {
-          "creativeorange\\craft\\mailinliner\\": "src/"
-        }
-    },
-    "extra": {
-        "name": "Mail Inliner",
-        "handle": "mailinliner",
-        "hasCpSettings": false,
-        "hasCpSection": false,
-        "changelogUrl": "https://raw.githubusercontent.com/creativeorange/mailinliner-craft3/master/CHANGELOG.md",
-        "components": {
-            "mailInlinerService": "creativeorange\\craft\\mailinliner\\services\\MailInlinerService"
-        },
-        "class": "creativeorange\\craft\\mailinliner\\MailInliner"
+  "name": "brainpink/mailinliner-craft",
+  "description": "Convert CSS to inline styles",
+  "type": "craft-plugin",
+  "keywords": [
+    "craft",
+    "cms",
+    "craftcms",
+    "craft-plugin",
+    "mail inliner"
+  ],
+  "support": {
+    "docs": "https://github.com/brainpink/mail-inliner/blob/master/README.md",
+    "issues": "https://github.com/brainpink/mail-inliner/issues"
+  },
+  "config": {
+    "platform": {
+      "php": "8.0.2"
     }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Brainpink",
+      "homepage": "https://www.brainpink.nl"
+    }
+  ],
+  "require": {
+    "tijsverkoyen/css-to-inline-styles": "^2.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "brainpink\\craft\\mailinliner\\": "src/"
+    }
+  },
+  "extra": {
+    "name": "Mail Inliner",
+    "handle": "mailinliner",
+    "hasCpSettings": false,
+    "hasCpSection": false,
+    "changelogUrl": "https://raw.githubusercontent.com/brainpink/mailinliner-craft3/master/CHANGELOG.md",
+    "components": {
+      "mailInlinerService": "brainpink\\craft\\mailinliner\\services\\MailInlinerService"
+    },
+    "class": "brainpink\\craft\\mailinliner\\MailInliner"
+  }
 }
