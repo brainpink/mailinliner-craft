@@ -1,6 +1,6 @@
 <?php
 
-namespace creativeorange\craft\mailinliner\twigextensions\Node;
+namespace brainpink\craft\mailinliner\twigextensions\Node;
 
 use Twig\Compiler;
 use Twig\Node\Node;
@@ -18,6 +18,6 @@ class MailInliner_Node extends Node
             ->write("\$_compiledBody = ob_get_clean();\n");
 
         $compiler
-            ->write("echo  \creativeorange\craft\mailinliner\MailInliner::getInstance()->mailinliner->compile(\$_compiledBody);\n");
+            ->write("echo  \brainpink\craft\mailinliner\MailInliner::getInstance()->mailinliner->compile(\$_compiledBody);\n");
     }
 }

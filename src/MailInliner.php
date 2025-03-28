@@ -4,14 +4,14 @@
  *
  * Takes us back to 1999
  *
- * @link      https://www.creativeorange.nl
- * @copyright Copyright (c) 2018 Creativeorange
+ * @link      https://www.brainpink.nl
+ * @copyright Copyright (c) 2018 Brainpink
  */
 
-namespace creativeorange\craft\mailinliner;
+namespace brainpink\craft\mailinliner;
 
-use creativeorange\craft\mailinliner\services\MailInlinerService as MailInlinerServiceService;
-use creativeorange\craft\mailinliner\twigextensions\MailInlinerTwigExtension;
+use brainpink\craft\mailinliner\services\MailInlinerService as MailInlinerServiceService;
+use brainpink\craft\mailinliner\twigextensions\MailInlinerTwigExtension;
 
 use Craft;
 use craft\base\Plugin;
@@ -23,7 +23,7 @@ use yii\base\Event;
 /**
  * Class MailInliner
  *
- * @author    Creativeorange
+ * @author    Brainpink
  * @package   MailInliner
  * @since     0.1.0
  *
@@ -61,7 +61,7 @@ class MailInliner extends Plugin
         Craft::$app->view->registerTwigExtension(new MailInlinerTwigExtension());
 
         $this->setComponents([
-            'mailinliner' => \creativeorange\craft\mailinliner\services\MailInlinerService::class,
+            'mailinliner' => \brainpink\craft\mailinliner\services\MailInlinerService::class,
         ]);
     }
 

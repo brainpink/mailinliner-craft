@@ -1,8 +1,8 @@
 <?php
 
-namespace creativeorange\craft\mailinliner\twigextensions\TokenParser;
+namespace brainpink\craft\mailinliner\twigextensions\TokenParser;
 
-use creativeorange\craft\mailinliner\twigextensions\Node\MailInliner_Node;
+use brainpink\craft\mailinliner\twigextensions\Node\MailInliner_Node;
 use Twig\Token;
 use Twig\TokenParser\AbstractTokenParser;
 use Twig_Error_Syntax;
